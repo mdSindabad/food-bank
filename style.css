@@ -11,6 +11,12 @@ h1 {
 h1 span {
     color: #0387F7;
 }
+h2 {
+    color: #575757;
+    font-size: 40px;
+    margin-top: 50px;
+    line-height: 60px;
+}
 p {
     margin: 20px 20px 20px 0;
 }
@@ -32,7 +38,7 @@ p {
 }
 .description {
     width: 45%;
-    padding-top: 40px;
+    padding: 40px 0;
 }
 .image {
     width: 45%;
@@ -41,8 +47,8 @@ p {
     width: 100%;
 }
 .about img {
-    height: 100%;
-    width: 250px;
+    height: auto;
+    width: 300px;
 }
 .about {
     display: flex;
@@ -51,4 +57,34 @@ p {
     background-image: url(images/shapes/Frame\ 57.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+.recipies {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FAFAFA;
+    padding: 50px 0;
+}
+.recipies .top {
+    text-align: center;
+    width: 50%;
+}
+.recipie__items {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    width: 80%;
+    margin-top: 25px;
+}
+.recipie__item {
+    width: 25%;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgb(212, 210, 210);
+}
+.recipie__item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
